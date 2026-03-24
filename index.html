@@ -23,7 +23,6 @@
     <nav class="fixed w-full z-50 bg-[#08080a]/90 backdrop-blur-md border-b border-white/5">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center">
-                <!-- Site Logo -->
                 <img src="logo.png" alt="4x Agency" class="h-10 w-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                 <span class="text-2xl font-bold tracking-tighter hidden">4<span class="sunset-text">X</span> AGENCY</span>
             </div>
@@ -41,10 +40,15 @@
         <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center">
             
             <!-- Hero Left (Text) -->
-            <div class="z-10 md:col-span-7">
-                <h1 class="text-5xl md:text-7xl font-bold leading-[1.1] mb-8">
-                    Precision Meets <br><span class="sunset-text">Presence.</span>
+            <div class="z-10 md:col-span-8">
+                <!-- Header with Leads, Price, and LinkedIn Icon -->
+                <h1 class="text-5xl md:text-7xl font-bold leading-[1.1] mb-8 flex flex-wrap items-center gap-x-4">
+                    10+ Leads a week for <span class="sunset-text">£297</span>
+                    <div class="linkedin-blue-bg p-2 rounded shadow-lg glow-icon-blue inline-flex items-center justify-center scale-75 md:scale-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </div>
                 </h1>
+                
                 <p class="text-gray-300 text-lg md:text-xl max-w-xl mb-10 leading-relaxed font-light">
                     Enhancing your professional authority through strategic LinkedIn management. We combine targeted lead generation with considered brand positioning to connect you with high-value opportunities.
                 </p>
@@ -53,18 +57,10 @@
                 </a>
             </div>
             
-            <!-- Hero Right (Image and Badge) -->
-            <div class="md:col-span-5 flex flex-col items-center md:items-end">
-                <!-- Badge Updated to £297 -->
-                <div class="flex items-center gap-4 mb-6 glass-card px-6 py-3 rounded-full border border-white/10 shadow-xl">
-                    <span class="text-xs uppercase tracking-[0.3em] font-bold text-gray-300">10+ Leads a week for £297</span>
-                    <div class="linkedin-blue-bg p-2 rounded shadow-lg glow-icon-blue">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                    </div>
-                </div>
-
+            <!-- Hero Right (Image only) -->
+            <div class="md:col-span-4 flex justify-center md:justify-end">
                 <div class="relative w-full max-w-sm">
-                    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=800" alt="LinkedIn Strategy on Laptop" class="rounded-2xl shadow-2xl border border-white/10 grayscale-[0.1]">
+                    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=800" alt="LinkedIn Strategy" class="rounded-2xl shadow-2xl border border-white/10 grayscale-[0.1]">
                 </div>
             </div>
         </div>
@@ -93,7 +89,7 @@
         </div>
     </section>
 
-    <!-- Capabilities -->
+    <!-- Services -->
     <section id="services" class="py-24">
         <div class="max-w-7xl mx-auto px-6 text-center md:text-left">
             <h2 class="text-4xl font-bold mb-4">Core Capabilities</h2>
@@ -118,7 +114,7 @@
         </div>
     </section>
 
-    <!-- Pricing Section Updated to £297 -->
+    <!-- Pricing Section -->
     <section id="pricing" class="py-24 bg-[#0c0c0e]">
         <div class="max-w-4xl mx-auto px-6">
             <div class="glass-card rounded-3xl overflow-hidden grid md:grid-cols-2 shadow-2xl">
